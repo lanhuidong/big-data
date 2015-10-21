@@ -24,11 +24,11 @@
 
     <property>
         <name>mapreduce.jobhistory.intermediate-done-dir</name>
-        <value>/mnt/mr-history/tmp</value>
+        <value>/mr-history/tmp</value>
     </property>
 
     <property>
         <name>mapreduce.jobhistory.done-dir</name>
-        <value>/mnt/mr-history/done</value>
+        <value>/mr-history/done</value>
     </property>
 </configuration>
