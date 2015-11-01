@@ -24,7 +24,7 @@ public class MaxScoreDriver extends Configured implements Tool {
             return -1;
         }
 
-        Job job = Job.getInstance();
+        Job job = Job.getInstance(getConf());
         job.setJobName("Max Score");
         job.setJarByClass(getClass());
 
