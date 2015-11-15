@@ -14,7 +14,7 @@ import java.io.IOException;
  * @author lanhuidong
  * @since 2015-11-13
  */
-public class AvroMain {
+public class AvroWithCodeGeneration {
 
     public static void main(String[] args) throws IOException {
         User user1 = new User();
